@@ -1,0 +1,7 @@
+tradesteps.my_page:
+  path: '/my_page'
+  defaults:
+    _controller: 'Drupal\tradesteps\Controller\MyPage::getContent'
+    _title: 'Hello world'
+  requirements:
+    _permission: 'access content'
